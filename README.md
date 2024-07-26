@@ -30,6 +30,8 @@ source ./devel/setup.bash
 roslaunch offboard takeoff.launch
 
 //2.机载电脑控制无人机起飞，飞一个正方形，然后降落
+roslaunch mavros px4.launch
+//再开一个终端
 source ./devel/setup.bash
 roslaunch offboard new.launch 
 ```
