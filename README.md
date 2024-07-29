@@ -16,6 +16,8 @@ mkdir src
 cd src
 catkin_init_workspace
 ```
+vicon相关设置可参考[vicon设置](https://gitee.com/ASSIL/vrpn_client_ros)
+
 Download this project and put it into `src`.
 ```
 git clone https://github.com/3113373723/offboard-vicon.git
